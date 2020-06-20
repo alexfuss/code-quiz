@@ -1,5 +1,5 @@
 # code-quiz
-
+https://alexfuss.github.io/code-quiz/
 The provided link above leads to an interactive quiz about Jimi Hendrix built with JavaScript. The quiz is meant to be fun and somewhat challenging with a 60 second time limit.
 
 # layout
