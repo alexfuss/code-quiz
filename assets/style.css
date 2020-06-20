@@ -1,0 +1,89 @@
+body {
+	font-size: 24px;
+	font-family: Quicksand, sans-serif;
+	color: black;
+    font-weight: 300;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+/* Rainbow coloring from eggradients.com */
+#countdown {
+    background-color: #ff4314;
+    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+}
+
+h1 {
+  font-weight: 750;
+  margin: 1rem;
+  padding: 2rem;
+  font-size: 30px;
+  color: #00A;
+}
+
+button {
+    margin-top: 5rem;
+	font-size: 26px;
+	background-color: #ff1493;
+    background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(54, 54, 157);
+}
+
+.row {
+    margin: 3rem;
+}
+
+.question { 
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 1020px) {
+    .quiz-btn {
+        margin-top: 22rem;
+    }
+    .answers {
+        margin-bottom: 30rem;
+    }
+}
+
+.answers {
+  margin-bottom: 3rem;
+  text-align: left;
+  display: inline-block;
+}
+
+.answers label {
+  display: block;
+}
+
+.slide { 
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.active-slide {
+  opacity: 1;
+  z-index: 2;
+}
+
+.quiz-container {
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
